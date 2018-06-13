@@ -13,8 +13,8 @@ public class UserController {
     @RequestMapping("/getUser")
     public User getUser(){
         User user = new User();
-        user.setAge(27);
-        user.setName("Tom");
+        user.setAge(29);
+        user.setName("Tommy");
         user.setPassword("12345");
         user.setBirthday(new Date());
         user.setDesc(null);
